@@ -19,3 +19,27 @@
     background-color: red;
     float: left;
 }
+.box-three{
+    height: 50px;
+    width: 100%;
+    background-color: sienna;
+    float: left;
+}
+.box-four{
+    height: 600px;
+    width: 20%;
+    background-color: teal;
+    float: left;
+}
+.box-five{
+    height: 600px;
+    width: 80%;
+    background-color:black;
+    float: left;
+}
+.box-six{
+    height: 40px;
+    width: 100%;
+    background-color: burlywood;
+    float: left;
+}
