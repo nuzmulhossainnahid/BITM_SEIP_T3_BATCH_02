@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resistation</title>
+    <title>Registation</title>
 </head>
 <body>
     <table border="1" width="980" align="center">
@@ -18,11 +18,12 @@
         <tr valign="top">
             <td height="500"></td>
             <td >
-                <h1 align="center">Resistation Form</h1>
+                <h1 align="center">Registation Form</h1>
+                <hr>
                 <table>
                     <tr>
                         <th align="left">First Name</th>
-                        <td><input type="text" name="first_name"/></td>
+                        <td><input type="text" name="first_name" placeholder="Your First Name" /></td>
                     </tr>
                     <tr>
                         <th align="left">Last Name</th>
@@ -56,22 +57,48 @@
                             <select name="district_name" id="">
                                 <option disabled selected>Select district name</option>
                                 <optgroup label="Dhaka">
-                                    <option value="">Dhaka</option>
-                                    <option value="">Saver</option>
-                                    <option value="">Manikgauang</option>
-                                    <option value="">Gazipur</option>
-                                    <option value="">Dhaka</option>
-                                    <option value="">Dhaka</option>
-                                    <option value="">Dhaka</option>
+                                    <option value="Dhaka">Dhaka</option>
+                                    <option value="Saver">Saver</option>
+                                    <option value="Manikgauang">Manikgauang</option>
+                                    <option value="Gazipur">Gazipur</option>
+                                    <option value="Dhaka">Dhaka</option>
+                                    <option value="Dhaka">Dhaka</option>
+                                    <option value="Dhaka">Dhaka</option>
                                 </optgroup>
                             </select>
                         </td>
+                    </tr>
+                    <tr>
+                        <th align="left">Country</th>
+                        <td><input type="text" name="countryname" list="country"></td>
                     </tr>
                     <tr>
                         <th align="left">Gender Information</th>
                         <td><input type="radio" name="gender" value="male">Male
                             <input type="radio"name="gender" value="female">Female
                             <input type="radio"name="gender" value="other">Other</td>
+                    </tr>
+                    <tr>
+                        <th align="left">Image</th>
+                        <td>
+                            <input type="file" accept="image/*" name="image">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left">Subject Name</th>
+                        <td>
+                            <label><input type="checkbox" name="subject">Bangla</label>
+                            <label><input type="checkbox" name="subject">English</label>
+                            <label><input type="checkbox" name="subject">Math</label>
+                            <label><input type="checkbox" name="subject">Chemistry</label>
+                            <label><input type="checkbox" name="subject">Physics</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>
+                           <input type="submit" name="btn" value="Resgistation">
+                        </td>
                     </tr>
                 </table>
             </td>
@@ -81,5 +108,12 @@
         </tr>
 
     </table>
+    
+    <datalist id="country">
+        <option value="Banglades"/>
+        <option value="Canada"/>
+        <option value="China"/>
+        <option value="Inadia"/>
+    </datalist>
 </body>
 </html>
