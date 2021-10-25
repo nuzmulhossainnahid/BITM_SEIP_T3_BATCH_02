@@ -49,7 +49,9 @@ height: 300px;
 width: 400px;
 background-color: red;
 float: left;
-margin: 20px 10px 60px 70px;
+color: aliceblue;
+/* margin: 20px 10px 60px 70px; */
+padding: 30px;
 }
 .div-two{
     height: 400px;
