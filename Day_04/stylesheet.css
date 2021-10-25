@@ -1,4 +1,4 @@
-.bg-red{
+/* .bg-red{
     background-color: red;
 }
 .bg-green{
@@ -41,5 +41,19 @@
     height: 40px;
     width: 100%;
     background-color: burlywood;
+    float: left;
+} */
+
+.div-one{
+height: 300px;
+width: 400px;
+background-color: red;
+float: left;
+margin: 20px 10px 60px 70px;
+}
+.div-two{
+    height: 400px;
+    width: 500px;
+    background-color: green;
     float: left;
 }
