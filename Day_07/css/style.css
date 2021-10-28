@@ -69,6 +69,7 @@
 .float-left{float:left;}
 .font-sans{font-family:sans-serif;}
 
+
 /* padding */
 .py-10{
     padding-top: 10px; 
@@ -111,7 +112,7 @@
     float: left;
 }
 .menu ul{
-    background-color: turquoise;
+    background-color: #13A0B2;
     list-style: none;
     float: left;
 }
@@ -149,4 +150,41 @@
 .banner-content-rapper p{
     font-style: italic;
     margin-bottom: 15px;
+}
+.btn{
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.my-icon{
+    margin-left: 10px;
+    border-left: 1px solid grey;
+    padding-left: 10px;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-siv{
+    background-color: turquoise;
+}
+.text-block{
+    color: black;
+}
+.mr-10{margin-right: 10px;}
+.text-right{
+    text-align: right;
+}
+.py-50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.service-heading h1{
+    border-right: 1px solid grey;
+    padding-right: 10px;
+}
+.service-content p{
+    padding-left: 10px;
+
 }
