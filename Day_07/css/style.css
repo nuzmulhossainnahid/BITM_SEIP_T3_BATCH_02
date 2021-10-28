@@ -60,10 +60,11 @@
 
 
 /* Content color & Bg color */
-.bg-light-dark{background-color: rgb(22, 16, 16);}
-.bg-light{background-color: lightgray;}
+.bg-light-dark{background-color: #20272F;}
+.bg-light{background-color: #E9E8EC;}
 .bg-bark{background-color: black;}
-.text-white{color:white;}
+.text-white{color:#7F8997}
+.text-white-d{color: #B59CA5;}
 .float-right{float:right;}
 .float-left{float:left;}
 .font-sans{font-family:sans-serif;}
@@ -88,9 +89,14 @@
 
 .header-content p{
     padding-left: 10px;
+    padding-right: 28px;
 }
-/* .header-content-line{
-    width: 5px;
+.header-content-line{
+    float: left;
+    width: 1px;
     height: 40px;
-    border: ;
+    border: 1px solid #CFCFD0;
+}
+/* .ml-10{
+    margin-left: 10px;
 } */
