@@ -248,10 +248,42 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 height: 480px;
+padding: 10px 10px 10px 0px;
+position: relative;
 }
 .about-border{
-
+height: 100%;
+border: 1px solid white;
+border-left: 0;
 }
 .about-content{
+    background-color: #12a0b1;
+    width: 40%;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    position: absolute;
+    right: 0;
+    top: 100px;
+
+}
+/* End Day-8 */
+
+/* business deteals */
+.business-details{
+    background-image: url("../img/sm-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+.flid-bg{
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.small-business{
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
 
 }
