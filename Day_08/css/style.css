@@ -40,6 +40,11 @@
     height:auto;
     margin:0 auto;
 }
+.container-flid{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+}
 
 
 
@@ -235,4 +240,18 @@
 }
 .mb-20{
     margin-bottom: 20px;
+}
+/* About Section */
+.about-image{
+background-image: url("../img/5.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 480px;
+}
+.about-border{
+
+}
+.about-content{
+
 }
