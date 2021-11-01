@@ -103,19 +103,43 @@
     width: 450px;
     background-color: grey;
     float: left;
-    animation-name: nahid;
-    animation-duration: 2s;
+    animation-name: na;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
+    position: absolute;
 
 }
 @keyframes nahid{
     0%{
-        background-color: red
+        background-image: url(../image/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     50%{
-        background-color: hotpink;
+        background-image: url(../image/logo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     100%{
-        background-color: green
+        background-image: url(../image/search_banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
+    
+}
+
+@keyframes na{
+    0%{
+        left: 0PX;
+    }
+    50%{
+        left: 800px;
+    }
+    100%{
+        left: 0px;
+    }
+    
 }
