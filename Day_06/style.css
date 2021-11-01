@@ -37,13 +37,8 @@
 .h-400{height: 400px;}
 
 .container{
-    width: 100%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
 }
-.container-main{
-    width: 95%;
-    height: auto;
-    margin: 0 auto;
-    
-}
+
