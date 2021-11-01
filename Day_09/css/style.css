@@ -1,0 +1,10 @@
+
+
+@media screen and (max-width: 700px) {
+
+    .div-one{
+        height: 200px;
+        width: 300px;
+        background-color: rgba(253, 0, 0, 0.8);
+        }
+}
