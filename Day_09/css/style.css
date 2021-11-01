@@ -97,3 +97,25 @@
         background-color: slategrey;
     }
     
+.box-one
+{
+    height: 300px;
+    width: 450px;
+    background-color: grey;
+    float: left;
+    animation-name: nahid;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes nahid{
+    0%{
+        background-color: red
+    }
+    50%{
+        background-color: hotpink;
+    }
+    100%{
+        background-color: green
+    }
+}
