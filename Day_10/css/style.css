@@ -1,19 +1,49 @@
-.box-one{
+/* .box-one{
     float: left;
     width: 300px;
     height: 300px;
     background-image: url(../image/logo.jpg);
     margin: 100px;
-    transform: rotate(0deg);
+    transform: rotateY(0deg);
     transition: all 2s;
     background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
+   transform: skewY(-50deg);
+   transition: all 2s;
 }
 .box-one:hover{
    background-image: url(../image/banner.jpg);
-    transform: rotateX(180deg);
+    transform: rotateY(90deg);
     background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
 }
+ */
+
+ .box-one{
+    float: left;
+    width: 50px;
+    height: 300px;
+    margin: 100px;
+    background-color: green;
+    transform: skew(-30deg);
+ }
+ .box-two{
+    float: left;
+    width: 50px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 22px;
+    background-color: green;
+    transform: skew(30deg);
+ }
+
+ .box-three{
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin-top: 250px;
+    margin-left: -200px;
+    background-color: green;
+    
