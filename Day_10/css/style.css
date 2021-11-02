@@ -77,4 +77,46 @@
     background: radial-gradient(red,green,blue);
 
 }
-    
+
+.new-div{
+    width: 100%;
+    float: left;
+    height: 400px;
+    background: url(../image/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.new-div-one{
+    width: 100%;
+    float: left;
+    height: 400px;
+    background-color: yellow;
+
+}
+
+.new-div-two{
+    width: 100%;
+    float: left;
+    height: 400px;
+    background-color: green;
+}
+.contant{
+    color: white;
+    padding: 100px;
+    font-family: bitm;
+
+}
+@font-face {
+    font-family: bitm;
+    src: url(../fonts/Lora-Italic-VariableFont_wght.ttf);
+}
+h1{
+    font-family: bitm;
+}
+*{
+    font-family: bitm;
+}
