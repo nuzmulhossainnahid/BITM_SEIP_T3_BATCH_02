@@ -46,4 +46,35 @@
     margin-top: 250px;
     margin-left: -200px;
     background-color: green;
+ }
+ .div-one{
+     height: 300px;
+     width: 200px;
+     background: linear-gradient(red, blue,green);
+
+     float: left;
+     margin-left: 140px;
+     margin-top: 100px;
+     transform: skewY(30deg);
+ }
+ .div-two{
+    height: 300px;
+    width: 200px;
+    background: linear-gradient(red, blue,green);
+
+    float: left;
+    margin-left: 10px;
+    margin-top: 100px;
+    transform: skewY(-30deg);
+}
+
+.div{
+    float: left;
+    height: 300px;
+    width: 400px;
+    margin: 100px;
+    /* background: linear-gradient(to left,red, blue,green); */
+    background: radial-gradient(red,green,blue);
+
+}
     
