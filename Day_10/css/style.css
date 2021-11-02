@@ -2,12 +2,18 @@
     float: left;
     width: 300px;
     height: 300px;
-    background-color: red;
+    background-image: url(../image/logo.jpg);
     margin: 100px;
-    transform: scale(1);
+    transform: rotate(0deg);
     transition: all 2s;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
 }
 .box-one:hover{
-    background-color: green;
-    transform: scale(2);
+   background-image: url(../image/banner.jpg);
+    transform: rotateX(180deg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
 }
