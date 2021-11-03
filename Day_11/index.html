@@ -10,21 +10,16 @@
 </head>
 <body>
     <script>
-        var x = 10;
-        var y = 20;
-        document.write( x > y );
+        var x = 20;
+        var y = 30;
+        var z = 40;
+        document.write( (x<y) && (y<z) );
         document.write('<br/>');
-        document.write(x<y);
+        document.write( (x>y) && (y>z) );
         document.write('<br/>');
-        document.write(x>=y);
+        document.write( (x<y) && (y>z) );
         document.write('<br/>');
-        document.write(x<=y);
-        document.write('<br/>');
-        document.write(x==y);
-        document.write('<br/>');
-        document.write(x!=y);
-        document.write('<br/>');
-        document.write(x===y);
+        document.write( (x>y) && (y<z) );
         document.write('<br/>');
        
     </script>
