@@ -26,18 +26,47 @@
     // test(100,200,"red");
 
 
-    var data = 10;//single Variable
-    document.write(data);
-    document.write("<br/>");
+    // var data = 10;//single Variable
+    // document.write(data);
+    // document.write("<br/>");
 
-    var data =[10,20,30];//Array
-    document.write(data[0]);
-    document.write("<br/>");
+    // var data =[10,20,30];//Array
+    // document.write(data[0]);
+    // document.write("<br/>");
 
 
-    var data ={name:"Nahid", city:"Dhaka"};//Object
-    document.write(data.name + " "+ data.city);
-    document.write("<br/>");
+    // var data ={name:"Nahid", city:"Dhaka"};//Object
+    // document.write(data.name + " "+ data.city);
+    // document.write("<br/>");
+    // var person ={
+    //     name:"Nahid",
+    //     city:"Dhaka",
+    //     mobile: 01737185373,
+    //     walk:function(){
+    //         document.write("I walk........");
+    //     },
+    //     speak:function(){
+    //         document.write("Hellow, Speak");
+    //     }
+    // };
+
+    // document.write(person.name);
+    // document.write("<br/>");
+    // person.walk();
+
+    var students=[
+        {name: "Nahid",email:"jhgjkhgj",mobile:12354},
+        {name: "Hasan",email:"jhgjkhgj",mobile:12354},
+        {name: "Karim",email:"jhgjkhgj",mobile:12354},
+        {name: "Zahid",email:"jhgjkhgj",mobile:12354}
+                ]
+                for(key in students){
+                    document.write("Name:"+students[key].name +"," +"Email: "+students[key].email+
+                    ","+"Phone: "+students[key].mobile+"<br/>");
+                    // break;
+                }
+
+    
 
 
     </script>
