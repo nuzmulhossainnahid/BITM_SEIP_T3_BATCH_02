@@ -11,19 +11,35 @@
 <body>
     <div id="content"></div>
     <script>
-    function test(height, width, bg)
-    {
-        var div = document.createElement("div");
-        div.style.height= height + 'px';
-        div.style.width = width +'px';
-        div.style.backgroundColor = bg;
-        div.style.float = 'left';
-        div.style.marginRight = '10px';
-        var content = document.getElementById('content');
-        content.append(div);
-    }
-    test(200,300,"green");
-    test(100,200,"red");
+    // function test(height, width, bg)
+    // {
+    //     var div = document.createElement("div");
+    //     div.style.height= height + 'px';
+    //     div.style.width = width +'px';
+    //     div.style.backgroundColor = bg;
+    //     div.style.float = 'left';
+    //     div.style.marginRight = '10px';
+    //     var content = document.getElementById('content');
+    //     content.append(div);
+    // }
+    // test(200,300,"green");
+    // test(100,200,"red");
+
+
+    var data = 10;//single Variable
+    document.write(data);
+    document.write("<br/>");
+
+    var data =[10,20,30];//Array
+    document.write(data[0]);
+    document.write("<br/>");
+
+
+    var data ={name:"Nahid", city:"Dhaka"};//Object
+    document.write(data.name + " "+ data.city);
+    document.write("<br/>");
+
+
     </script>
 </body>
 </html>
