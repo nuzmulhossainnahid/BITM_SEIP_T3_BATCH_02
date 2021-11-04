@@ -12,11 +12,15 @@
     <script>
         var i = 10;
          
-        do{
-            document.write(i, "<br/>");
-            i++;
-        }
-        while(i < 15);
+       var data = ["Nahid","Musha","Hasan",200,20.5,true];
+    //    var data = [];
+    //    data[100] = 'Habib';
+    //    data[5]= "ali";
+    //    data[101]=200;
+       
+    for(key in data){
+        document.write(data[key] +'<br/>');
+    }
     </script>
 </body>
 </html>
