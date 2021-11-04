@@ -5,23 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css"/>
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
     <title>Day-12</title>
 </head>
 <body>
+    <div id="content"></div>
     <script>
-    function test(x, y){
-        
-        var z = x+y;
-        document.write(z);
-    
+    function test(height, width, bg)
+    {
+        var div = document.createElement("div");
+        div.style.height= height + 'px';
+        div.style.width = width +'px';
+        div.style.backgroundColor = bg;
+        div.style.float = 'left';
+        div.style.marginRight = '10px';
+        var content = document.getElementById('content');
+        content.append(div);
     }
-    test(20,30);
-    document.write("<br/>");
-    test(10,30);
-    document.write("<br/>")
-    test(0,30);
-    document.write("<br/>")
+    test(200,300,"green");
+    test(100,200,"red");
     </script>
 </body>
 </html>
