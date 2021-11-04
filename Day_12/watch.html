@@ -4,20 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css"/>
     <script src="js/main.js"></script>
+
     <title>Day-12</title>
+    <style>
+        .box{
+    height: 400px;
+    width: 300px;
+    border: 1px solid red;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+.image_btn{
+    padding-top: 30px;
+}
+    </style>
 </head>
 <body>
     <div>
-        <button type="button" id="red">Red</button>
+
+        <div class="box" id="content"></div>
+
+        <div class="image_btn">
+        <button type="button" id="red"><img src="img/1.jpg" alt="" height="150px" width="150px"/></button>
         <button type="button" id="green">Green</button>
         <button type="button" id="blue">Blue</button>
         <button type="button" id="defalt">Defult</button>
+    </div>
 
 
-        <div class="box" id="content">
-        </div>
+        
     </div>
     <script>
     
@@ -25,8 +41,9 @@
         redBtn.onclick = function()
         {
         var content = document.getElementById('content');
-        content.style.backgroundColor= 'red';
-        content.style.borderRadius='50px'
+        // content.style.backgroundColor= 'red';
+        // content.style.borderRadius='50px'
+        content.style.backgroundImage= URL()
         }
 
         var greenBtn = document.getElementById('green');
