@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Basic Calculator</h1>
+    <table>
+        <tr>
+            <th>First Number</th>
+            <td>
+                <input type="number" name="" id="firstNumber"/>
+            </td>
+        </tr>
+        <tr>
+            <th>Last Number</th>
+            <td>
+                <input type="number" name="" id="lastNumber"/>
+            </td>
+        </tr>
+        <tr>
+            <th>Result</th>
+            <td>
+                <input type="number" name="" readonly id="result"/>
+            </td>
+        </tr>
+
+        <tr>
+            <th></th>
+            <td>
+                <input type="button" name="" id="plusbtn" onclick=" mycalculator('+')" value="+"/>
+                <input type="button" name="" id="minbtn" value="-" onclick=" mycalculator('-')"/>
+                <input type="button" name="" id="mulbtn" value="*" onclick=" mycalculator('*')"/>
+                <input type="button" name="" id="divbtn" value="/" onclick=" mycalculator('/')"/>
+                <input type="button" name="" id="modbtn" value="%" onclick=" mycalculator('%')"/>
+                <input type="button" name="" id="reset" value="Reset" onclick=" mycalculator('reset')"/>
+            </td>
+        </tr>
+
+    </table>
+
+    <script>
+        var restbtn= document.getElementById("reset");
+        restbtn.onclick = function(){
+            document.getElementById("firstNumber").value=" ";
+            document.getElementById("lastNumber").value=" ";
+            document.getElementById("result").value=" ";
+        }
+        function mycalculator(operator){
+            var firstNumber = Number(document.getElementById("firstNumber").value);
+            var lastNumber = Number(document.getElementById("lastNumber").value);
+            
+            var result = 0;
+            switch(operator)
+            {
+                case '+':
+                    result = firstNumber + lastNumber;
+                    break; 
+
+                case '-':
+                    result = firstNumber - lastNumber;
+                    break; 
+                
+                 case '*':
+                    result = firstNumber * lastNumber;
+                    break; 
+                
+                case '/':
+                    result = firstNumber / lastNumber;
+                    break;
+
+                case '%':
+                    result = firstNumber % lastNumber;
+                    break; 
+                    
+            }
+            document.getElementById("result").value= result;
+
+        }
+    </script>
+</body>
+</html>
