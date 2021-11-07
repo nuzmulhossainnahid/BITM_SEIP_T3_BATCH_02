@@ -13,7 +13,7 @@
     </style>
 </head>
 <body>
-    <table border="1">
+    <!-- <table border="1">
         <tr>
             <th>First Name: </th>
             <td><input type="text" id="first_name"/></td>
@@ -29,106 +29,64 @@
         <tr>
             <td colspan="2" align="center"> <button id="submit" >Submit</button></td>
         </tr>
+    </table> -->
+    <hr>
+    <table border="1">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Full Name</th>
+        </tr>
+        <tr>
+            <td><input type="text" name="" id="first_name"></td>
+            <td><input type="text" id="last_name"></td>
+            <td><h3 id="full_name"></h3></td>
+        </tr>
+        <tr>
+            <td height="50"><h3 id="d_first"></h3></td>
+            <td><h3 id="d_last"></h3></td>
+            <td><h3 id="d_full"></h3></td>
+        </tr>
     </table>
     <script>
-    //     var basis = document.getElementById("bitm");
-    //    basis.onmouseover = function(){
-    //        basis.innerHTML= "This is content";
 
-    //    }
-    //    var basis = document.getElementById("bitm");
-    //    basis.onclick = function(){
-    //        basis.innerHTML= "Hellow Bangladesh";
-
-    //    }
-
-    //    var basis = document.getElementById("bitm");
-    //    basis.onmouseleave = function(){
-    //        basis.innerHTML= "To day is Sunday.............";
-
-    //    }
-
-    //    var basis = document.getElementById("input");
-    //    basis.onmouseover = function(){
-    //        basis.value= "This is input";
-    //        if(input.value == 'Congratulation')
-    //        {
-    //            input.setAttribute('class','test');
-    //        }
-    //        else
-    //        {
-    //         input.setAttribute('class',' ');
-    //        }
-
-    //    }
-    //    var basis = document.getElementById("input");
-    //    basis.onclick = function(){
-    //        basis.value= "";
-    //        if(input.value == 'Congratulation')
-    //        {
-    //            input.setAttribute('class','test');
-    //        }
-    //        else
-    //        {
-    //         input.setAttribute('class',' ');
-    //        }
-
-    //    }
-
-    //    var basis = document.getElementById("input");
-    //    basis.onmouseleave = function(){
-    //        basis.value= "I am Nahid";
-    //        if(input.value == 'Congratulation')
-    //        {
-    //            input.setAttribute('class','test');
-    //        }
-    //        else
-    //        {
-    //         input.setAttribute('class',' ');
-    //        }
-
-    //    }
-    //    var basis = document.getElementById("input");
-    //    basis.onkeyup = function(){
-    //     var h1=document.getElementById("bitm");
-    //         h1.innerHTML= input.value;
-    //         if(input.value == 'Congratulation')
-    //        {
-    //            input.setAttribute('class','test');
-    //        }
-    //        else
-    //        {
-    //         input.setAttribute('class',' ');
-    //        }
-
-
-
-    //    }
-    //    var basis = document.getElementById("input");
-    //    basis.onblur = function(){
-    //        if(input.value == 'Congratulation')
-    //        {
-    //            input.setAttribute('class','test');
-    //        }
-    //        else
-    //        {
-    //         input.setAttribute('class',' ');
-    //        }
-
-        //    basis.value= "complete this please";
-        var submit = document.getElementById("submit");
-        submit.onclick = function(){
-            var first_name = document.getElementById("first_name").value;
+        // var submit = document.getElementById("submit");
+        // submit.onclick = function(){
+        //     var first_name = document.getElementById("first_name").value;
             
-            var last_name = document.getElementById("last_name").value;
+        //     var last_name = document.getElementById("last_name").value;
             
-            var first_name = document.getElementById("first_name").value;
+        //     var first_name = document.getElementById("first_name").value;
             
-            var full_name = first_name+" " +last_name;
+        //     var full_name = first_name+" " +last_name;
 
-           document.getElementById("full_name").value=full_name;
+        //    document.getElementById("full_name").value=full_name;
             
+        // }
+
+        var first_value= document.getElementById("first_name");
+        first_value.onkeyup = function(){
+            var out_first = document.getElementById("d_first");
+            out_first.innerHTML=first_name.value;
         }
+
+        var last_name= document.getElementById("last_name");
+        last_name.onkeyup = function(){
+            var d_last = document.getElementById("d_last");
+            d_last.innerHTML=last_name.value;
+        }
+
+        last_name.onblur = function(){
+            var show1 = document.getElementById("d_first").innerHTML;
+            var show2 = document.getElementById("d_last").innerHTML;
+            var allshow1 = document.getElementById("full_name");
+            allshow1.innerHTML= show1+" "+show2;
+            var allshow2 = document.getElementById("d_full");
+            allshow2.innerHTML= show1+" "+show2;
+        }
+
+       
+
 
 
        
