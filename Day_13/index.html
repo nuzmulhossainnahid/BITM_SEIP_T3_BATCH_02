@@ -13,9 +13,23 @@
     </style>
 </head>
 <body>
-    <h1 id="bitm">This is a heading</h1>
-    <input type="text" id="input" value="Nahid"/>
-    <img src="" alt="" id="img"/>
+    <table border="1">
+        <tr>
+            <th>First Name: </th>
+            <td><input type="text" id="first_name"/></td>
+        </tr>
+        <tr>
+            <th>Last Name: </th>
+            <td><input type="text" id="last_name"/></td>
+        </tr>
+        <tr>
+            <th>Action</th>
+            <td><input type="text" name="" id="full_name"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"> <button id="submit" >Submit</button></td>
+        </tr>
+    </table>
     <script>
     //     var basis = document.getElementById("bitm");
     //    basis.onmouseover = function(){
@@ -34,76 +48,90 @@
 
     //    }
 
-       var basis = document.getElementById("input");
-       basis.onmouseover = function(){
-           basis.value= "This is input";
-           if(input.value == 'Congratulation')
-           {
-               input.setAttribute('class','test');
-           }
-           else
-           {
-            input.setAttribute('class',' ');
-           }
+    //    var basis = document.getElementById("input");
+    //    basis.onmouseover = function(){
+    //        basis.value= "This is input";
+    //        if(input.value == 'Congratulation')
+    //        {
+    //            input.setAttribute('class','test');
+    //        }
+    //        else
+    //        {
+    //         input.setAttribute('class',' ');
+    //        }
 
-       }
-       var basis = document.getElementById("input");
-       basis.onclick = function(){
-           basis.value= "";
-           if(input.value == 'Congratulation')
-           {
-               input.setAttribute('class','test');
-           }
-           else
-           {
-            input.setAttribute('class',' ');
-           }
+    //    }
+    //    var basis = document.getElementById("input");
+    //    basis.onclick = function(){
+    //        basis.value= "";
+    //        if(input.value == 'Congratulation')
+    //        {
+    //            input.setAttribute('class','test');
+    //        }
+    //        else
+    //        {
+    //         input.setAttribute('class',' ');
+    //        }
 
-       }
+    //    }
 
-       var basis = document.getElementById("input");
-       basis.onmouseleave = function(){
-           basis.value= "I am Nahid";
-           if(input.value == 'Congratulation')
-           {
-               input.setAttribute('class','test');
-           }
-           else
-           {
-            input.setAttribute('class',' ');
-           }
+    //    var basis = document.getElementById("input");
+    //    basis.onmouseleave = function(){
+    //        basis.value= "I am Nahid";
+    //        if(input.value == 'Congratulation')
+    //        {
+    //            input.setAttribute('class','test');
+    //        }
+    //        else
+    //        {
+    //         input.setAttribute('class',' ');
+    //        }
 
-       }
-       var basis = document.getElementById("input");
-       basis.onkeyup = function(){
-        var h1=document.getElementById("bitm");
-            h1.innerHTML= input.value;
-            if(input.value == 'Congratulation')
-           {
-               input.setAttribute('class','test');
-           }
-           else
-           {
-            input.setAttribute('class',' ');
-           }
+    //    }
+    //    var basis = document.getElementById("input");
+    //    basis.onkeyup = function(){
+    //     var h1=document.getElementById("bitm");
+    //         h1.innerHTML= input.value;
+    //         if(input.value == 'Congratulation')
+    //        {
+    //            input.setAttribute('class','test');
+    //        }
+    //        else
+    //        {
+    //         input.setAttribute('class',' ');
+    //        }
 
 
 
-       }
-       var basis = document.getElementById("input");
-       basis.onblur = function(){
-           if(input.value == 'Congratulation')
-           {
-               input.setAttribute('class','test');
-           }
-           else
-           {
-            input.setAttribute('class',' ');
-           }
+    //    }
+    //    var basis = document.getElementById("input");
+    //    basis.onblur = function(){
+    //        if(input.value == 'Congratulation')
+    //        {
+    //            input.setAttribute('class','test');
+    //        }
+    //        else
+    //        {
+    //         input.setAttribute('class',' ');
+    //        }
 
         //    basis.value= "complete this please";
+        var submit = document.getElementById("submit");
+        submit.onclick = function(){
+            var first_name = document.getElementById("first_name").value;
+            
+            var last_name = document.getElementById("last_name").value;
+            
+            var first_name = document.getElementById("first_name").value;
+            
+            var full_name = first_name+" " +last_name;
 
-       }
+           document.getElementById("full_name").value=full_name;
+            
+        }
+
+
+       
 
     </script>
 </body>
