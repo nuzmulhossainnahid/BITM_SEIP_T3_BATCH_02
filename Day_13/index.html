@@ -5,16 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day_13</title>
+    <style>
+        .test{
+            color: red;
+
+        }
+    </style>
 </head>
 <body>
     <h1 id="bitm">This is a heading</h1>
     <input type="text" id="input" value="Nahid"/>
-    <img src="" alt=""/>
+    <img src="" alt="" id="img"/>
     <script>
-        var basis = document.getElementById("input");
-        basis.value = 'Hellow World!!'
-        basis.setAttribute('class','demo');
-        console.log(basis.getAttribute('id'));
+    //     var basis = document.getElementById("bitm");
+    //    basis.onmouseover = function(){
+    //        basis.innerHTML= "This is content";
+
+    //    }
+    //    var basis = document.getElementById("bitm");
+    //    basis.onclick = function(){
+    //        basis.innerHTML= "Hellow Bangladesh";
+
+    //    }
+
+    //    var basis = document.getElementById("bitm");
+    //    basis.onmouseleave = function(){
+    //        basis.innerHTML= "To day is Sunday.............";
+
+    //    }
+
+       var basis = document.getElementById("input");
+       basis.onmouseover = function(){
+           basis.value= "This is input";
+           if(input.value == 'Congratulation')
+           {
+               input.setAttribute('class','test');
+           }
+           else
+           {
+            input.setAttribute('class',' ');
+           }
+
+       }
+       var basis = document.getElementById("input");
+       basis.onclick = function(){
+           basis.value= "";
+           if(input.value == 'Congratulation')
+           {
+               input.setAttribute('class','test');
+           }
+           else
+           {
+            input.setAttribute('class',' ');
+           }
+
+       }
+
+       var basis = document.getElementById("input");
+       basis.onmouseleave = function(){
+           basis.value= "I am Nahid";
+           if(input.value == 'Congratulation')
+           {
+               input.setAttribute('class','test');
+           }
+           else
+           {
+            input.setAttribute('class',' ');
+           }
+
+       }
+       var basis = document.getElementById("input");
+       basis.onkeyup = function(){
+        var h1=document.getElementById("bitm");
+            h1.innerHTML= input.value;
+            if(input.value == 'Congratulation')
+           {
+               input.setAttribute('class','test');
+           }
+           else
+           {
+            input.setAttribute('class',' ');
+           }
+
+
+
+       }
+       var basis = document.getElementById("input");
+       basis.onblur = function(){
+           if(input.value == 'Congratulation')
+           {
+               input.setAttribute('class','test');
+           }
+           else
+           {
+            input.setAttribute('class',' ');
+           }
+
+        //    basis.value= "complete this please";
+
+       }
 
     </script>
 </body>
