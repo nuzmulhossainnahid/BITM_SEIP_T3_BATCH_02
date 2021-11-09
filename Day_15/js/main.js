@@ -81,3 +81,23 @@ var submit = document.getElementById("submit");
             }
         }
         setInterval(changeImage, 1000);
+
+       var submit = document.getElementById("submit");
+       submit.onclick= function(){
+           var height = document.getElementById("height").value;
+           var width = document.getElementById("width").value;
+           var color = document.getElementById("color").value;
+           var float = document.getElementById("float").value;
+           var borderRedious = document.getElementById("borderRedious").value;
+
+           var div = document.createElement('div');
+           div.style.height= height + 'px';
+           div.style.width= width + 'px';
+           div.style.backgroundColor= color;
+           div.style.borderRedious= borderRedious;
+           div.style.float= float;
+           var custome = document.getElementById("custom");
+           custome.append(div);
+
+        
+       } 
