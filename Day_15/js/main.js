@@ -1,10 +1,17 @@
 var submit = document.getElementById("submit");
         submit.onclick= function(){
             var enNam = document.getElementById("input_number").value;
-            if(enNam%2!=0){
-                document.getElementById("result").innerHTML="Odd";
+
+            var i;
+            var result = 'prime'
+            for(i = 2; i< enNam; i++){
+                if(enNam%i == 0){
+                    result = 'Not Prime';
+                    break;
+                }
+                else{
+                    continue;
+                }
             }
-            else{
-                document.getElementById("result").innerHTML="Even";
-            }
+            document.getElementById('result').innerHTML=result;
         }
