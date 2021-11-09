@@ -40,3 +40,44 @@ var submit = document.getElementById("submit");
         }
         test();
         setInterval(test, 1000);
+
+
+        var img1 = document.getElementById("img1");
+        img1.onclick = function(){
+            var mainImage = document.getElementById("mainImage");
+            var imgurl1= img1.getAttribute('src');
+            mainImage.setAttribute('src', imgurl1);
+        }
+        var img2 = document.getElementById("img2");
+        img2.onclick = function(){
+            var mainImage = document.getElementById("mainImage");
+            var imgurl2= img2.getAttribute('src');
+            mainImage.setAttribute('src', imgurl2);
+        }
+        var img3 = document.getElementById("img3");
+        img3.onclick = function(){
+            var mainImage = document.getElementById("mainImage");
+            var imgurl3= img3.getAttribute('src');
+            mainImage.setAttribute('src', imgurl3);
+        }
+        var img4 = document.getElementById("img4");
+        img4.onclick = function(){
+            var mainImage = document.getElementById("mainImage");
+            var imgurl4= img4.getAttribute('src');
+            mainImage.setAttribute('src', imgurl4);
+        }
+
+
+
+        var data =['img/2.jpeg','img/3.jpg','img/4.jpg','img/1.jpg'];
+        var sliderMainImage = document.getElementById('simage-1');
+        var index = 0;
+        function changeImage(){
+            sliderMainImage.setAttribute('src', data[index]);
+            index++;
+            if(index==data.length)
+            {
+                index=0;
+            }
+        }
+        setInterval(changeImage, 1000);
