@@ -27,3 +27,21 @@
 
 //     });
 
+$('#btn').click(function(){
+    var div ='';
+    div +='<div>' ;
+    div +='<input type="text"/>';
+    div +='<input type="text"/>';
+    div +='</div>';
+    $('#wrapper').append(div);
+
+
+});
+
+$('#btnOne').click(function(){
+    var firstName = $('#firstName').val();
+    var lastName = $('#lastName').val();
+
+    var result = firstName+' '+lastName;
+    $('#fullName').val(result);
+});
