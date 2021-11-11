@@ -34,10 +34,10 @@ $('#addBtn').click(function(){
     });
     tr += '</td>';
 
-    tr += '<td><input type="number" name="" basis="'+index+'"id="price'+index+'"></td>';
-    tr += '<td><input type="number" name="" basis="'+index+'" id="qty'+index+'"></td>';
+    tr += '<td><input type="number" name="" onkeyup="updateTotalPriceByPrice(this)" basis="'+index+'"id="price'+index+'"></td>';
+    tr += '<td><input type="number" name="" onkeyup="updateTotalPriceByQty(this)" basis="'+index+'" id="qty'+index+'"></td>';
     
-    tr += '<td><input type="text" readonly name="" basis="'+index+'" id="total'+index+'"></td>';
+    tr += '<td><input type="text" readonly class="itemTotalPrice" name="" basis="'+index+'" id="total'+index+'"></td>';
     
     tr += '<td><button type="button" class="remove-btn">-</button></td>';
     tr +='</tr>';
@@ -47,9 +47,11 @@ $('#addBtn').click(function(){
 });
 $(document).on('click', '.remove-btn', function(){
    $(this).closest('tr').remove();
+   setGrandTotal();
 });
 
 //value = product id
+//dinamic product id
 function priceQuantyTotalPrice(value, select)
 {
     var index = $(select).attr('basis');
@@ -57,6 +59,34 @@ function priceQuantyTotalPrice(value, select)
 
     $('#price'+index).val(product.price),
     $('#qty'+index).val(1),
-    $('#total'+index).val(product.price*1)
-
+    $('#total'+index).val(product.price*1),
+    setGrandTotal();
 }
+//dimamic quantity
+function updateTotalPriceByQty(input)
+{
+    var index = $(input).attr('basis');
+    var qty = $(input).val();
+    var price = $('#price'+index).val();
+    var total = price*qty;
+    $('#total'+index).val(total);
+    setGrandTotal();
+}
+//dinamic price
+function updateTotalPriceByPrice(input){
+    var index = $(input).attr('basis');
+    var price = $(input).val();
+    var qty = $('#qty'+index).val();
+    var total = price*qty;
+    $('#total'+index).val(total);
+    setGrandTotal();
+}
+
+function setGrandTotal()
+ { 
+     var sum = 0;
+     $('.itemTotalPrice').each(function () {  
+         sum = sum + Number($(this).val());
+     });
+     $('#grandTotal').text(sum+' Tk Only');
+  }
