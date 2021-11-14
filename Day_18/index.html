@@ -5,12 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css"/>
-    <title>Document</title>
+    <title>Day_18</title>
 </head>
 <body>
-    
-    <script src="js/main.js">
-        
-    </script>
+    <form action="" method="" id="registation">
+        <table>
+            <tr>
+                <th>First Name</th>
+                <td>
+                    <input type="text" id="firstName"/>
+                    <span id="firstNameError"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>last Name</th>
+                <td>
+                    <input type="text" id="lastName"/>
+                    <span id="lasttNameError"></span>
+                </td>
+
+                <tr>
+                    <th>Email</th>
+                    <td>
+                        <input type="email" id="email"/>
+                        <span id="emailError"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Password</th>
+                    <td>
+                        <input type="password" id="password">
+                        <label for=""><input type="checkbox" id="showHide"/>Show</label>
+                        <span id="passwordError"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Confirm Password</th>
+                    <td>
+                        <input type="password" id="conformPassword"/>
+                        <span id="comformPasswordError"></span>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <th>Phone Number</th>
+                    <td>
+                        <input type="number" id="phoneNumber"/>
+                        <span id="phoneNumberError"></span>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <th>District Name</th>
+                    <td>
+                        <select name="" id="districtName">
+                            <option value="" disabled selected><------select a district ------></option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Barisal">Barisal</option>
+                            <option value="Noakhali">Noakhali</option>
+                            <option value="Chadpur">Chadpur</option>
+                        </select>
+                        <span id="districtNameError"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Gander Info</th>
+                    <td>
+                        <input type="radio" value="male" name="gender"/>Male
+                        <input type="radio" value="female" name="gender"/>Female
+                        <input type="radio" value="other" name="gender"/>Others
+
+                        <span id="genderError"></span>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>
+                        <input type="submit" id="btn" value="Submit"/>
+                    </td>
+                </tr>
+        </table>
+    </form>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
