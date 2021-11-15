@@ -135,7 +135,7 @@ function checkDistrictName(){
 //Gender
 function checkGender(){
    var gender =  $('input[name="genger"]:checked').val();
-    if(gender.length > 0){
+    if(gender != 0){
         $('#genderError').text('');
         return true;
     }
