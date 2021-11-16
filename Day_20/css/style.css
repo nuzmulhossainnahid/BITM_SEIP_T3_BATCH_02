@@ -1,10 +1,12 @@
-.h-200{
+.h-200 {
     height: 200px;
 }
-.h-400{
-    height: 400px;
+
+.h-400 {
+    height: 500px;
 }
-.my-caption{
+
+.my-caption {
     background-color: rgba(0, 0, 0, 0.5);
     bottom: 100px;
 }

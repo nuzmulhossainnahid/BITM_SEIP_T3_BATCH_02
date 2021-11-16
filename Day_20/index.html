@@ -1,665 +1,719 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Day_20</title>
 </head>
+
 <body>
     <!-- Nav Star -->
-   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-       <div class="container">
-        <a href="" class="navbar-brand">LOGO</a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">LOGO</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
             <span class="navbar-toggler-icon "></span>
         </button>
-        <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav ml-auto"> 
-                <!-- mx,ml,mr -->
-                <li><a href="" class="nav-link">Home</a></li>
-                <li><a href="" class="nav-link">About</a></li>
-                <li class="dropdown">
-                    <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Service</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="" class="dropdown-item">Service 1</a></li>
-                        <li><a href="" class="dropdown-item">Service 2</a></li>
-                        <li><a href="" class="dropdown-item">Service 3</a></li>
-                        <li><a href="" class="dropdown-item">Service 4</a></li>
-                    </ul>
-                </li>
-                <li><a href="" class="nav-link">Gallery</a></li>
-                <li><a href="" class="nav-link">Contact</a></li>
-                <li><a href="" class="nav-link">Resistation</a></li>
-                <li><a href="" class="nav-link">Login</a></li>
-            </ul>
-        </div>
-       </div>
-   </nav>
-<!-- Nav End -->
-<!-- Slider start -->
-   <section>
-    <div id="mainSlid" class="carousel slide" data-ride="carousel" data-interval="1800">
-       <ol class="carousel-indicators">
-           <li data-target="#mainSlid" data-slide-to="0" class="active" ></li>
-           <li data-target="#mainSlid" data-slide-to="1" ></li>
-           <li data-target="#mainSlid" data-slide-to="2" ></li>
-           <li data-target="#mainSlid" data-slide-to="3" ></li>
-       </ol>
-       <div class="carousel-inner">
-           <div class="carousel-item active">
-               <img src="img/1.jpg" class="w-100 h-400" alt=""/>
-               <div class="carousel-caption my-caption">
-                   <h2>This is Heading...</h2>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem rem, tempore dolores, eligendi totam amet nihil consectetur ipsam enim eveniet laudantium dolore reprehenderit error quibusdam deleniti est excepturi autem.</p>
-                   <a href="" class="btn btn-primary">Read more...</a>
-               </div>
-           </div>
-
-           <div class="carousel-item">
-            <img src="img/2.jpeg" class="w-100 h-400" alt=""/>
-            <div class="carousel-caption my-caption">
-                <h2>This is Heading...</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem rem, tempore dolores, eligendi totam amet nihil consectetur ipsam enim eveniet laudantium dolore reprehenderit error quibusdam deleniti est excepturi autem.</p>
-                <a href="" class="btn btn-primary">Read more...</a>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ml-auto">
+                    <!-- mx,ml,mr -->
+                    <li><a href="" class="nav-link">Home</a></li>
+                    <li><a href="" class="nav-link">About</a></li>
+                    <li class="dropdown">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Service</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">Service 1</a></li>
+                            <li><a href="" class="dropdown-item">Service 2</a></li>
+                            <li><a href="" class="dropdown-item">Service 3</a></li>
+                            <li><a href="" class="dropdown-item">Service 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="" class="nav-link">Gallery</a></li>
+                    <li><a href="" class="nav-link">Contact</a></li>
+                    <li><a href="" class="nav-link">Resistation</a></li>
+                    <li><a href="" class="nav-link">Login</a></li>
+                </ul>
             </div>
         </div>
+    </nav>
+    <!-- Nav End -->
+    <!-- Slider start -->
+    <section>
+        <div id="mainSlid" class="carousel slide" data-ride="carousel" data-interval="1800">
+            <ol class="carousel-indicators">
+                <li data-target="#mainSlid" data-slide-to="0" class="active"></li>
+                <li data-target="#mainSlid" data-slide-to="1"></li>
+                <li data-target="#mainSlid" data-slide-to="2"></li>
+                <li data-target="#mainSlid" data-slide-to="3"></li>
+                <li data-target="#mainSlid" data-slide-to="4"></li>
+                <li data-target="#mainSlid" data-slide-to="5"></li>
+                <li data-target="#mainSlid" data-slide-to="6"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/1.jpg" class="w-100 h-400" alt="" />
+                    <div class="carousel-caption my-caption">
+                        <h2>This is Heading...</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem rem, tempore dolores, eligendi totam amet nihil consectetur ipsam enim eveniet laudantium dolore reprehenderit error quibusdam deleniti est excepturi autem.</p>
+                        <a href="" class="btn btn-primary">Read more...</a>
+                    </div>
+                </div>
 
-        <div class="carousel-item">
-            <img src="img/3.jpg" class="w-100 h-400" alt=""/>
-            <div class="carousel-caption my-caption">
-                <h2>This is Heading...</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem rem, tempore dolores, eligendi totam amet nihil consectetur ipsam enim eveniet laudantium dolore reprehenderit error quibusdam deleniti est excepturi autem.</p>
-                <a href="" class="btn btn-primary">Read more...</a>
+                <div class="carousel-item">
+                    <img src="img/2.jpg" class="w-100 h-400" alt="" />
+                    <div class="carousel-caption my-caption">
+                        <h2>This is Heading...</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem rem, tempore dolores, eligendi totam amet nihil consectetur ipsam enim eveniet laudantium dolore reprehenderit error quibusdam deleniti est excepturi autem.</p>
+                        <a href="" class="btn btn-primary">Read more...</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/3.jpg" class="w-100 h-400" alt="" />
+                    <div class="carousel-caption my-caption">
+                        <h2>This is Heading...</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem rem, tempore dolores, eligendi totam amet nihil consectetur ipsam enim eveniet laudantium dolore reprehenderit error quibusdam deleniti est excepturi autem.</p>
+                        <a href="" class="btn btn-primary">Read more...</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/4.jpg" class="w-100 h-400" alt="" />
+                    <div class="carousel-caption my-caption">
+                        <h2>This is Heading...</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem rem, tempore dolores, eligendi totam amet nihil consectetur ipsam enim eveniet laudantium dolore reprehenderit error quibusdam deleniti est excepturi autem.</p>
+                        <a href="" class="btn btn-primary">Read more...</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/5.jpg" class="w-100 h-400" alt="" />
+                    <div class="carousel-caption my-caption">
+                        <h2>This is Heading...</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem rem, tempore dolores, eligendi totam amet nihil consectetur ipsam enim eveniet laudantium dolore reprehenderit error quibusdam deleniti est excepturi autem.</p>
+                        <a href="" class="btn btn-primary">Read more...</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/6.jpg" class="w-100 h-400" alt="" />
+                    <div class="carousel-caption my-caption">
+                        <h2>This is Heading...</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem rem, tempore dolores, eligendi totam amet nihil consectetur ipsam enim eveniet laudantium dolore reprehenderit error quibusdam deleniti est excepturi autem.</p>
+                        <a href="" class="btn btn-primary">Read more...</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/7.jpg" class="w-100 h-400" alt="" />
+                    <div class="carousel-caption my-caption">
+                        <h2>This is Heading...</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem rem, tempore dolores, eligendi totam amet nihil consectetur ipsam enim eveniet laudantium dolore reprehenderit error quibusdam deleniti est excepturi autem.</p>
+                        <a href="" class="btn btn-primary">Read more...</a>
+                    </div>
+                </div>
+
             </div>
-        </div>
 
-        <div class="carousel-item">
-            <img src="img/4.jpg" class="w-100 h-400" alt=""/>
-            <div class="carousel-caption my-caption">
-                <h2>This is Heading...</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem rem, tempore dolores, eligendi totam amet nihil consectetur ipsam enim eveniet laudantium dolore reprehenderit error quibusdam deleniti est excepturi autem.</p>
-                <a href="" class="btn btn-primary">Read more...</a>
-            </div>
-        </div>
-
-       </div>
-
-       <a href="#mainSlid" class="carousel-control-prev" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-        </a>
-
-        <a href="#mainSlid" class="carousel-control-next" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
+            <a href="#mainSlid" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
             </a>
 
-    </div>
-   
-   </section>
-<!-- End Slider -->
-
-<!-- ''''''''''Start Card''''''''''''''''' -->
-<section class="py-5 bg-info">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-               <div class="card border-danger">
-                   <img src="img/2.jpeg" height="400px" class="card-img-top"  alt="">
-                   <div class="card-body">
-                       <h1 class="card-title">This is card Heading</h1>
-                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ex, a suscipit laboriosam, cupiditate repudiandae fugiat accusamus minus similique eos qui voluptate assumenda, mollitia quae exercitationem officiis cumque soluta quisquam.</p>
-                   </div>
-                   <div class="card-footer">
-                       <a href="" class="btn btn-success float-right">Read more..</a>
-                   </div>
-               </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card border-danger">
-                    <img src="img/1.jpg" height="400px" class="card-img-top"  alt="">
-                    <div class="card-body">
-                        <h1 class="card-title">This is card Heading</h1>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ex, a suscipit laboriosam, cupiditate repudiandae fugiat accusamus minus similique eos qui voluptate assumenda, mollitia quae exercitationem officiis cumque soluta quisquam.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="" class="btn btn-success float-right">Read more..</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card border-danger">
-                    <img src="img/5.jpg" height="400px" class="card-img-top"  alt="">
-                    <div class="card-body">
-                        <h1 class="card-title">This is card Heading</h1>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ex, a suscipit laboriosam, cupiditate repudiandae fugiat accusamus minus similique eos qui voluptate assumenda, mollitia quae exercitationem officiis cumque soluta quisquam.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="" class="btn btn-success float-right">Read more..</a>
-                    </div>
-                </div>
-            </div>
+            <a href="#mainSlid" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
 
         </div>
-    </div>
-</section>
-<!-- ''''''''''End Card''''''''''''''''' -->
 
+    </section>
+    <!-- End Slider -->
 
-<!--  -->
-<section class="py-4 bg-secondary">
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <div class="card">
-                    <div class="card-header">
-                        <h4>Card Header</h4>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title"> Heading</h3>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quo placeat, laboriosam esse itaque voluptate id praesentium, similique in dignissimos debitis necessitatibus culpa vero aperiam quae magnam quia et sequi?</p>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iusto veniam minus temporibus optio animi voluptatem, in est provident eos commodi maxime doloremque neque repellat, architecto sequi illo saepe quidem.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="" class="btn btn-success float-right">Read more..</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class=" card">
-                    <div class="card-header">
-                        <h4>Heading</h4>
-                    </div>
-                    <div class="card-body">
-                        <h4>Jast a heading</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga velit, eveniet est similique delectus odio aliquid fugit quis, necessitatibus eius ducimus quaerat aperiam nulla reiciendis! Hic necessitatibus aut veritatis animi!</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur illum possimus optio doloribus ut fugiat magnam dicta suscipit voluptatem, nostrum nisi a veritatis ea facilis explicabo reprehenderit fuga ad fugit.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="" class="btn btn-success">more..</a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col-4">
-                <div class=" card">
-                    <div class="card-header">
-                        <h4>Heading</h4>
-                    </div>
-                    <div class="card-body">
-                        <h4>Jast a heading</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga velit, eveniet est similique delectus odio aliquid fugit quis, necessitatibus eius ducimus quaerat aperiam nulla reiciendis! Hic necessitatibus aut veritatis animi!</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur illum possimus optio doloribus ut fugiat magnam dicta suscipit voluptatem, nostrum nisi a veritatis ea facilis explicabo reprehenderit fuga ad fugit.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="" class="btn btn-success">more..</a>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-</section>
-<!--  -->
-
-<!--  -->
-<section class="py-5 bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card bg-danger text-white">
-                    <div class="card-header">
-                        <h3>Card Header</h3>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Heading</h4>
-                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum eum accusantium autem optio quaerat modi velit inventore? Ab impedit magnam ratione architecto id nostrum dolor sed rem asperiores. Harum, cumque?</p>
-
-                    </div>
-                    <div class="card-footer">
-                        <a href="" class="btn btn-primary">more..</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card bg-primary text-white">
-                    <div class="card-header">
-                        <h3>Card Header</h3>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Heading</h4>
-                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum eum accusantium autem optio quaerat modi velit inventore? Ab impedit magnam ratione architecto id nostrum dolor sed rem asperiores. Harum, cumque?</p>
-
-                    </div>
-                    <div class="card-footer">
-                        <a href="" class="btn btn-primary">more..</a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col-md-4">
-                <div class="card bg-warning text-white">
-                    <div class="card-header">
-                        <h3>Card Header</h3>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Heading</h4>
-                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum eum accusantium autem optio quaerat modi velit inventore? Ab impedit magnam ratione architecto id nostrum dolor sed rem asperiores. Harum, cumque?</p>
-
-                    </div>
-                    <div class="card-footer">
-                        <a href="" class="btn btn-primary">more..</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<!--  -->
-
-<!--  -->
-<section class="py-5 bg-light">
-    <div class="container">
-        <div class="row">
-
-
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="row">
-
-                        <div class="col-md-4">
-                            <img src="img/img1.jpg" class="w-100 h-100" alt="">
-
-                        </div>
-
-                        <div class="col-md-8">
-                            <h1>This is heading</h1>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio reprehenderit laudantium id, possimus voluptates dolorum voluptate minima harum quibusdam ad est impedit accusantium iste molestias ex quo maxime aperiam dolor!</p>
-                            <a href="" class="btn btn-primary">more.</a>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="row">
-
-                        <div class="col-md-4">
-                            <img src="img/img4.jpg" class="w-100 h-100" alt="">
-
-                        </div>
-
-                        <div class="col-md-8">
-                            <h1>This is heading</h1>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio reprehenderit laudantium id, possimus voluptates dolorum voluptate minima harum quibusdam ad est impedit accusantium iste molestias ex quo maxime aperiam dolor!</p>
-                            <a href="" class="btn btn-primary">more.</a>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-</section>
-
-<!--  -->
-
-<!--  -->
-<div class="py-5 bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-               
-
-                <div class="card-group">
-
-                    <div class="card">
-                        <div class="card-header">
-                            <h3>This is heading</h3>
-                        </div>
+    <!-- ''''''''''Start Card''''''''''''''''' -->
+    <section class="py-5 bg-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card border-danger">
+                        <img src="img/1.jpg" class="card-img-top h-200" alt="">
                         <div class="card-body">
-                            <h3 class="card-title">Heading</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nostrum voluptatem maiores architecto enim quas, voluptate, ratione possimus, optio labore officiis ad natus deserunt totam. Quasi dolorum quia tenetur dolore.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur earum iusto fugiat esse voluptatem rerum corporis eligendi. Voluptates, obcaecati! Fuga, maxime! Sunt ipsa aperiam possimus nesciunt dicta laborum ullam minima.</p>
+                            <h1 class="card-title">This is card Heading</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ex, a suscipit laboriosam, cupiditate repudiandae fugiat accusamus minus similique eos qui voluptate assumenda, mollitia quae exercitationem officiis cumque soluta
+                                quisquam.
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn btn-primary">More</button>
+                            <a href="" class="btn btn-success float-right">Read more..</a>
                         </div>
                     </div>
-
-                    <div class="card">
-                        <div class="card-header">
-                            <h3>This is heading</h3>
-                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-danger">
+                        <img src="img/2.jpg" class="card-img-top h-200" alt="">
                         <div class="card-body">
-                            <h3 class="card-title">Heading</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nostrum voluptatem maiores architecto enim quas, voluptate, ratione possimus, optio labore officiis ad natus deserunt totam. Quasi dolorum quia tenetur dolore.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur earum iusto fugiat esse voluptatem rerum corporis eligendi. Voluptates, obcaecati! Fuga, maxime! Sunt ipsa aperiam possimus nesciunt dicta laborum ullam minima.</p>
+                            <h1 class="card-title">This is card Heading</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ex, a suscipit laboriosam, cupiditate repudiandae fugiat accusamus minus similique eos qui voluptate assumenda, mollitia quae exercitationem officiis cumque soluta
+                                quisquam.
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn btn-primary">More</button>
+                            <a href="" class="btn btn-success float-right">Read more..</a>
                         </div>
                     </div>
-    
-                    <div class="card">
-                        <div class="card-header">
-                            <h3>This is heading</h3>
-                        </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card border-danger">
+                        <img src="img/3.jpg" class="card-img-top h-200" alt="">
                         <div class="card-body">
-                            <h3 class="card-title">Heading</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nostrum voluptatem maiores architecto enim quas, voluptate, ratione possimus, optio labore officiis ad natus deserunt totam. Quasi dolorum quia tenetur dolore.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur earum iusto fugiat esse voluptatem rerum corporis eligendi. Voluptates, obcaecati! Fuga, maxime! Sunt ipsa aperiam possimus nesciunt dicta laborum ullam minima.</p>
+                            <h1 class="card-title">This is card Heading</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ex, a suscipit laboriosam, cupiditate repudiandae fugiat accusamus minus similique eos qui voluptate assumenda, mollitia quae exercitationem officiis cumque soluta
+                                quisquam.
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn btn-primary">More</button>
+                            <a href="" class="btn btn-success float-right">Read more..</a>
                         </div>
                     </div>
-
-
-
-                    
-
-
-
                 </div>
-
 
             </div>
         </div>
-    </div>
-</div>
-
-<!--  -->
+    </section>
+    <!-- ''''''''''End Card''''''''''''''''' -->
 
 
-<!--  -->
-<section class="py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-
-                <div class="card-deck">
+    <!--  -->
+    <section class="py-4 bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
                     <div class="card">
-                        <img src="img/img3.jpg" alt="">
+                        <div class="card-header">
+                            <h4>Card Header</h4>
+                        </div>
                         <div class="card-body">
-                        <h1 class="card-title">This is heading</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptate. Similique provident, praesentium quis odit officiis qui vitae, ab aliquam repudiandae tempore et placeat nemo vel, laudantium debitis voluptate facilis.</p>
-                        
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cupiditate, porro ratione excepturi rem, hic, odio quaerat alias necessitatibus iure qui optio minima doloremque tempore. Atque fugit aliquid eos nihil!</p>
+                            <h3 class="card-title"> Heading</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quo placeat, laboriosam esse itaque voluptate id praesentium, similique in dignissimos debitis necessitatibus culpa vero aperiam quae magnam quia et sequi?</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iusto veniam minus temporibus optio animi voluptatem, in est provident eos commodi maxime doloremque neque repellat, architecto sequi illo saepe quidem.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-success float-right">Read more..</a>
                         </div>
                     </div>
-                
-    
-                <div class="card">
-                    <img src="img/img4.jpg" alt="">
-                    <div class="card-body">
-                    <h1 class="card-title">This is heading</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptate. Similique provident, praesentium quis odit officiis qui vitae, ab aliquam repudiandae tempore et placeat nemo vel, laudantium debitis voluptate facilis.</p>
-                    
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cupiditate, porro ratione excepturi rem, hic, odio quaerat alias necessitatibus iure qui optio minima doloremque tempore. Atque fugit aliquid eos nihil!</p>
                 </div>
-            </div>
-    
-            <div class="card">
-                <img src="img/img1.jpg" alt="">
-                <div class="card-body">
-                <h1 class="card-title">This is heading</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptate. Similique provident, praesentium quis odit officiis qui vitae, ab aliquam repudiandae tempore et placeat nemo vel, laudantium debitis voluptate facilis.</p>
-               
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cupiditate, porro ratione excepturi rem, hic, odio quaerat alias necessitatibus iure qui optio minima doloremque tempore. Atque fugit aliquid eos nihil!</p>
+                <div class="col-4">
+                    <div class=" card">
+                        <div class="card-header">
+                            <h4>Heading</h4>
+                        </div>
+                        <div class="card-body">
+                            <h4>Jast a heading</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga velit, eveniet est similique delectus odio aliquid fugit quis, necessitatibus eius ducimus quaerat aperiam nulla reiciendis! Hic necessitatibus aut veritatis animi!</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur illum possimus optio doloribus ut fugiat magnam dicta suscipit voluptatem, nostrum nisi a veritatis ea facilis explicabo reprehenderit fuga ad fugit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-success">more..</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class=" card">
+                        <div class="card-header">
+                            <h4>Heading</h4>
+                        </div>
+                        <div class="card-body">
+                            <h4>Jast a heading</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga velit, eveniet est similique delectus odio aliquid fugit quis, necessitatibus eius ducimus quaerat aperiam nulla reiciendis! Hic necessitatibus aut veritatis animi!</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur illum possimus optio doloribus ut fugiat magnam dicta suscipit voluptatem, nostrum nisi a veritatis ea facilis explicabo reprehenderit fuga ad fugit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-success">more..</a>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
-                </div>
+    </section>
+    <!--  -->
 
-                
-        </div>
-    </div>
-</section>
+    <!--  -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-danger text-white">
+                        <div class="card-header">
+                            <h3>Card Header</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Heading</h4>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum eum accusantium autem optio quaerat modi velit inventore? Ab impedit magnam ratione architecto id nostrum dolor sed rem asperiores. Harum, cumque?</p>
 
-<!--  -->
-
-<!--  -->
-<section class="py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-               <div class="card-columns">
-
-
-                <div class="card">
-                    <img src="img/3.jpg" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h3>This is a heading</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consequuntur dolores sunt id. Nesciunt placeat illum, laboriosam voluptatum exercitationem accusamus voluptates. Eveniet dicta aut architecto itaque corporis debitis quibusdam explicabo?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consequuntur dolores sunt id. Nesciunt placeat illum, laboriosam voluptatum exercitationem accusamus voluptates. Eveniet dicta aut architecto itaque corporis debitis quibusdam explicabo?</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-primary">more..</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header">
-                        <h4>Card Header</h4>
-                    </div>
-                    <diuv class="card-body">
-                        <h4>This is a heading</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolorum nisi aspernatur aliquid ea aperiam quibusdam mollitia sapiente maxime animi, sit accusamus, facilis consequatur. Architecto laudantium eos cumque ipsam saepe!</p>
-                    </diuv>
-                </div>
 
-                <div class="card">
-                    <div class="card-body">
-                        <h4>This is a card body</h4>
-                        <img src="img/4.jpg" alt="" class="w-100 h-200">
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto facere necessitatibus et omnis nisi, assumenda quam quibusdam reiciendis, officiis, odio quo tempora soluta laudantium. Perferendis, eligendi. Laboriosam amet expedita deserunt.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <h4>This is a card header</h4>
-                    </div>
-                    <div class="card-body">
-                        <h4>this is are title</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-success">Read More...</a>
+                <div class="col-md-4">
+                    <div class="card bg-primary text-white">
+                        <div class="card-header">
+                            <h3>Card Header</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Heading</h4>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum eum accusantium autem optio quaerat modi velit inventore? Ab impedit magnam ratione architecto id nostrum dolor sed rem asperiores. Harum, cumque?</p>
+
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-primary">more..</a>
+                        </div>
                     </div>
                 </div>
 
 
+                <div class="col-md-4">
+                    <div class="card bg-warning text-white">
+                        <div class="card-header">
+                            <h3>Card Header</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Heading</h4>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum eum accusantium autem optio quaerat modi velit inventore? Ab impedit magnam ratione architecto id nostrum dolor sed rem asperiores. Harum, cumque?</p>
 
-
-
-                <div class="card">
-                    <img src="img/img4.jpg" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h3>This is a heading</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consequuntur dolores sunt id. Nesciunt placeat illum, laboriosam voluptatum exercitationem accusamus voluptates. Eveniet dicta aut architecto itaque corporis debitis quibusdam explicabo?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consequuntur dolores sunt id. Nesciunt placeat illum, laboriosam voluptatum exercitationem accusamus voluptates. Eveniet dicta aut architecto itaque corporis debitis quibusdam explicabo?</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-primary">more..</a>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <h4>Card Header</h4>
-                    </div>
-                    <diuv class="card-body">
-                        <h4>This is a heading</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolorum nisi aspernatur aliquid ea aperiam quibusdam mollitia sapiente maxime animi, sit accusamus, facilis consequatur. Architecto laudantium eos cumque ipsam saepe!</p>
-                    </diuv>
-                </div>
-
-                <div class="card">
-                    <div class="card-body">
-                        <h4>This is a card body</h4>
-                        <img src="img/3.jpg" alt="" class="w-100 h-200">
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto facere necessitatibus et omnis nisi, assumenda quam quibusdam reiciendis, officiis, odio quo tempora soluta laudantium. Perferendis, eligendi. Laboriosam amet expedita deserunt.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <h4>This is a card header</h4>
-                    </div>
-                    <div class="card-body">
-                        <h4>this is are title</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-success">Read More...</a>
-                    </div>
-                </div>
-              </div>
-
-
-
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--  -->
+
+    </section>
+
+    <!--  -->
+
+    <!--  -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
 
 
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="row">
 
+                            <div class="col-md-4">
+                                <img src="img/4.jpg" class="w-100 h-100" alt="">
 
-<!-- Modal Button -->
+                            </div>
 
-<section class="py-5 bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                
-                <button class="btn btn-success" data-target="#myModal" data-toggle="modal">Click me</button>
+                            <div class="col-md-8">
+                                <h1>This is heading</h1>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio reprehenderit laudantium id, possimus voluptates dolorum voluptate minima harum quibusdam ad est impedit accusantium iste molestias ex quo maxime aperiam dolor!</p>
+                                <a href="" class="btn btn-primary">more.</a>
 
-                <div class="table-responsive">
-                    <table class="table table-border  table-hover">
-                        <!-- table-striped -->
-                        <thead class="bg-danger text-white">
-                            <tr>
-                                <th>#</th>
-                                <th>Name</th>
-                                <th>Email</th>
-                                <th>Mobile</th>
-                                <th>Location</th>
-                                <th>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Nahid</td>
-                                <td>hasannahidnazmul@gmail.com</td>
-                                <td>01738978778785</td>
-                                <td>Dhaka</td>
-                                <td>
-                                    <a href="">Details</a>
-                                    <a href="">Edit</a>
-                                    <a href="">Delete</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Nahid</td>
-                                <td>hasannahidnazmul@gmail.com</td>
-                                <td>01738978778785</td>
-                                <td>Dhaka</td>
-                                <td>
-                                    <a href="">Details</a>
-                                    <a href="">Edit</a>
-                                    <a href="">Delete</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Nahid</td>
-                                <td>hasannahidnazmul@gmail.com</td>
-                                <td>01738978778785</td>
-                                <td>Dhaka</td>
-                                <td>
-                                    <a href="">Details</a>
-                                    <a href="">Edit</a>
-                                    <a href="">Delete</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Nahid</td>
-                                <td>hasannahidnazmul@gmail.com</td>
-                                <td>01738978778785</td>
-                                <td>Dhaka</td>
-                                <td>
-                                    <a href="">Details</a>
-                                    <a href="">Edit</a>
-                                    <a href="">Delete</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Nahid</td>
-                                <td>hasannahidnazmul@gmail.com</td>
-                                <td>01738978778785</td>
-                                <td>Dhaka</td>
-                                <td>
-                                    <a href="">Details</a>
-                                    <a href="">Edit</a>
-                                    <a href="">Delete</a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
 
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <img src="img/5.jpg" class="w-100 h-100" alt="">
+
+                            </div>
+
+                            <div class="col-md-8">
+                                <h1>This is heading</h1>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio reprehenderit laudantium id, possimus voluptates dolorum voluptate minima harum quibusdam ad est impedit accusantium iste molestias ex quo maxime aperiam dolor!</p>
+                                <a href="" class="btn btn-primary">more.</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+
+    <!--  -->
+    <div class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+
+                    <div class="card-group">
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>This is heading</h3>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Heading</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nostrum voluptatem maiores architecto enim quas, voluptate, ratione possimus, optio labore officiis ad natus deserunt totam. Quasi dolorum quia tenetur dolore.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur earum iusto fugiat esse voluptatem rerum corporis eligendi. Voluptates, obcaecati! Fuga, maxime! Sunt ipsa aperiam possimus nesciunt dicta laborum ullam minima.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-primary">More</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>This is heading</h3>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Heading</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nostrum voluptatem maiores architecto enim quas, voluptate, ratione possimus, optio labore officiis ad natus deserunt totam. Quasi dolorum quia tenetur dolore.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur earum iusto fugiat esse voluptatem rerum corporis eligendi. Voluptates, obcaecati! Fuga, maxime! Sunt ipsa aperiam possimus nesciunt dicta laborum ullam minima.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-primary">More</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>This is heading</h3>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Heading</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nostrum voluptatem maiores architecto enim quas, voluptate, ratione possimus, optio labore officiis ad natus deserunt totam. Quasi dolorum quia tenetur dolore.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur earum iusto fugiat esse voluptatem rerum corporis eligendi. Voluptates, obcaecati! Fuga, maxime! Sunt ipsa aperiam possimus nesciunt dicta laborum ullam minima.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-primary">More</button>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+
+
+                </div>
             </div>
         </div>
     </div>
-</section>
-<!-- End Modal Button -->
+
+    <!--  -->
 
 
+    <!--  -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="card-deck">
+                        <div class="card">
+                            <img src="img/6.jpg" alt="">
+                            <div class="card-body">
+                                <h1 class="card-title">This is heading</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptate. Similique provident, praesentium quis odit officiis qui vitae, ab aliquam repudiandae tempore et placeat nemo vel, laudantium debitis voluptate
+                                    facilis.
+                                </p>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cupiditate, porro ratione excepturi rem, hic, odio quaerat alias necessitatibus iure qui optio minima doloremque tempore. Atque fugit aliquid eos nihil!</p>
+                            </div>
+                        </div>
 
 
+                        <div class="card">
+                            <img src="img/7.jpg" alt="">
+                            <div class="card-body">
+                                <h1 class="card-title">This is heading</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptate. Similique provident, praesentium quis odit officiis qui vitae, ab aliquam repudiandae tempore et placeat nemo vel, laudantium debitis voluptate
+                                    facilis.
+                                </p>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" data-backdrop="static" data-keybord="false">
-    <div class="modal-dialog modal-md modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                This is a modal header
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="card card-body">
-                    <h3 class="card-title">This is heading contant</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vitae minima ipsum quos. Doloribus minima blanditiis quas maxime tempora. At itaque est quo eveniet aliquam quia, voluptatibus amet iusto eligendi!</p>
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur tenetur rerum neque minima at optio nemo quos, vel sint accusamus repellendus iste. Quaerat excepturi inventore at cupiditate dignissimos, provident necessitatibus.</p>
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur tenetur rerum neque minima at optio nemo quos, vel sint accusamus repellendus iste. Quaerat excepturi inventore at cupiditate dignissimos, provident necessitatibus.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cupiditate, porro ratione excepturi rem, hic, odio quaerat alias necessitatibus iure qui optio minima doloremque tempore. Atque fugit aliquid eos nihil!</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="img/1.jpg" alt="">
+                            <div class="card-body">
+                                <h1 class="card-title">This is heading</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptate. Similique provident, praesentium quis odit officiis qui vitae, ab aliquam repudiandae tempore et placeat nemo vel, laudantium debitis voluptate
+                                    facilis.
+                                </p>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cupiditate, porro ratione excepturi rem, hic, odio quaerat alias necessitatibus iure qui optio minima doloremque tempore. Atque fugit aliquid eos nihil!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
-            <div class="modal-footer">
-                This is modal Fotter
+    </section>
+
+    <!--  -->
+
+    <!--  -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-columns">
+
+
+                        <div class="card">
+                            <img src="img/2.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3>This is a heading</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consequuntur dolores sunt id. Nesciunt placeat illum, laboriosam voluptatum exercitationem accusamus voluptates. Eveniet dicta aut architecto itaque corporis
+                                    debitis quibusdam explicabo?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consequuntur dolores sunt id. Nesciunt placeat illum, laboriosam voluptatum exercitationem accusamus voluptates. Eveniet dicta aut architecto itaque corporis
+                                    debitis quibusdam explicabo?</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Card Header</h4>
+                            </div>
+                            <diuv class="card-body">
+                                <h4>This is a heading</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolorum nisi aspernatur aliquid ea aperiam quibusdam mollitia sapiente maxime animi, sit accusamus, facilis consequatur. Architecto laudantium eos cumque ipsam
+                                    saepe!
+                                </p>
+                            </diuv>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h4>This is a card body</h4>
+                                <img src="img/3.jpg" alt="" class="w-100 h-200">
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto facere necessitatibus et omnis nisi, assumenda quam quibusdam reiciendis, officiis, odio quo tempora soluta laudantium. Perferendis, eligendi. Laboriosam
+                                    amet expedita deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>This is a card header</h4>
+                            </div>
+                            <div class="card-body">
+                                <h4>this is are title</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-success">Read More...</a>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="card">
+                            <img src="img/4.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3>This is a heading</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consequuntur dolores sunt id. Nesciunt placeat illum, laboriosam voluptatum exercitationem accusamus voluptates. Eveniet dicta aut architecto itaque corporis
+                                    debitis quibusdam explicabo?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consequuntur dolores sunt id. Nesciunt placeat illum, laboriosam voluptatum exercitationem accusamus voluptates. Eveniet dicta aut architecto itaque corporis
+                                    debitis quibusdam explicabo?</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Card Header</h4>
+                            </div>
+                            <diuv class="card-body">
+                                <h4>This is a heading</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolorum nisi aspernatur aliquid ea aperiam quibusdam mollitia sapiente maxime animi, sit accusamus, facilis consequatur. Architecto laudantium eos cumque ipsam
+                                    saepe!
+                                </p>
+                            </diuv>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h4>This is a card body</h4>
+                                <img src="img/5.jpg" alt="" class="w-100 h-200">
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto facere necessitatibus et omnis nisi, assumenda quam quibusdam reiciendis, officiis, odio quo tempora soluta laudantium. Perferendis, eligendi. Laboriosam
+                                    amet expedita deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>This is a card header</h4>
+                            </div>
+                            <div class="card-body">
+                                <h4>this is are title</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis libero hic sapiente quaerat accusamus illo, nisi magni aliquam, pariatur natus odit provident. Sed consequatur repellat unde alias, corrupti harum?</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-success">Read More...</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--  -->
+
+
+
+
+    <!-- Modal Button -->
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <button class="btn btn-success" data-target="#myModal" data-toggle="modal">Click me</button>
+
+                    <div class="table-responsive">
+                        <table class="table table-border  table-hover">
+                            <!-- table-striped -->
+                            <thead class="bg-danger text-white">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Mobile</th>
+                                    <th>Location</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Nahid</td>
+                                    <td>hasannahidnazmul@gmail.com</td>
+                                    <td>01738978778785</td>
+                                    <td>Dhaka</td>
+                                    <td>
+                                        <a href="">Details</a>
+                                        <a href="">Edit</a>
+                                        <a href="">Delete</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Nahid</td>
+                                    <td>hasannahidnazmul@gmail.com</td>
+                                    <td>01738978778785</td>
+                                    <td>Dhaka</td>
+                                    <td>
+                                        <a href="">Details</a>
+                                        <a href="">Edit</a>
+                                        <a href="">Delete</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Nahid</td>
+                                    <td>hasannahidnazmul@gmail.com</td>
+                                    <td>01738978778785</td>
+                                    <td>Dhaka</td>
+                                    <td>
+                                        <a href="">Details</a>
+                                        <a href="">Edit</a>
+                                        <a href="">Delete</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Nahid</td>
+                                    <td>hasannahidnazmul@gmail.com</td>
+                                    <td>01738978778785</td>
+                                    <td>Dhaka</td>
+                                    <td>
+                                        <a href="">Details</a>
+                                        <a href="">Edit</a>
+                                        <a href="">Delete</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Nahid</td>
+                                    <td>hasannahidnazmul@gmail.com</td>
+                                    <td>01738978778785</td>
+                                    <td>Dhaka</td>
+                                    <td>
+                                        <a href="">Details</a>
+                                        <a href="">Edit</a>
+                                        <a href="">Delete</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Modal Button -->
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" data-backdrop="static" data-keybord="false">
+        <div class="modal-dialog modal-md modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    This is a modal header
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="card card-body">
+                        <h3 class="card-title">This is heading contant</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vitae minima ipsum quos. Doloribus minima blanditiis quas maxime tempora. At itaque est quo eveniet aliquam quia, voluptatibus amet iusto eligendi!</p>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur tenetur rerum neque minima at optio nemo quos, vel sint accusamus repellendus iste. Quaerat excepturi inventore at cupiditate dignissimos, provident necessitatibus.</p>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur tenetur rerum neque minima at optio nemo quos, vel sint accusamus repellendus iste. Quaerat excepturi inventore at cupiditate dignissimos, provident necessitatibus.</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    This is modal Fotter
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- End Modal -->
+    <!-- End Modal -->
 
 
 
@@ -671,4 +725,5 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
