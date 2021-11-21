@@ -1,0 +1,72 @@
+.h-200 {
+    height: 200px;
+}
+
+.h-400 {
+    height: 500px;
+}
+
+.my-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 100px;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(webfonts/fa-regular-400.woff);
+ }
+ .fa{
+    font-family: myFirstFont;
+ }
+
+ .OneSec-image {
+    background-image: url("../webimage/23.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  /* .contentOne{
+      padding-left: 50px;
+  } */
+  .srcTwoImg{
+    background-image: url("../img_copy/1.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+  .secTwoText{
+      color: white;
+      text-align: center;
+      padding-top: 40px;
+
+  }
+  .SecTwoHed{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .line{
+      background-color: yellow;
+      height: 5px;
+      width: 80px;
+      
+  }
+
+  .Sec_Two_Text{
+      text-align: center;
+      padding: 10px;
+  }
+
+  .Sec_5{
+    background-image: url("../webimage/5.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+  }
